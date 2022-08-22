@@ -11,11 +11,11 @@ start_date ='2022-01-04
 city ='鄂尔多斯市'
 birthday ='07-23'
 
-app_id ='wx2813e8d9392dc20b'
-app_secret ='bf2060150f6f645960b9481b7a6f52b2'
+app_id = 'wx2813e8d9392dc20b'
+app_secret = 'bf2060150f6f645960b9481b7a6f52b2'
 
 user_id = 'ojrgE5z_CQg8W4w5iNr6cY_CWdtw'
-template_id ='r2bUtAL1Cc2GyG3BQMCC_YSil8-Wk3nimGK6Bs7xxFE'
+template_id = 'r2bUtAL1Cc2GyG3BQMCC_YSil8-Wk3nimGK6Bs7xxFE'
 
 
 def get_weather():
