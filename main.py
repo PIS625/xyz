@@ -8,7 +8,7 @@ import random
 
 today = datetime.now()
 start_date ='2022-01-04'
-city ='鄂尔多斯市'
+city ='准格尔旗'
 birthday ='07-23'
 
 app_id = 'wx2813e8d9392dc20b'
