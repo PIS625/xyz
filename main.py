@@ -5,9 +5,8 @@ from wechatpy.client.api import WeChatMessage, WeChatTemplate
 import requests
 import os
 import random
-# 当前时间
-today = datetime.datetime.today()
-now = datetime.datetume.now()
+
+today = datetime.now()
 start_date ='2022-01-04'
 city ='鄂尔多斯市'
 birthday ='07-23'
@@ -17,7 +16,6 @@ app_secret = 'bf2060150f6f645960b9481b7a6f52b2'
 
 user_id = 'ojrgE583R36QChNqX_W-C-2FL7Io'
 template_id = 'r2bUtAL1Cc2GyG3BQMCC_YSil8-Wk3nimGK6Bs7xxFE'
-
 
 def get_weather():
   url = "http://autodev.openspeech.cn/csp/api/v2.1/weather?openId=aiuicus&clientType=android&sign=android&city=" + city
