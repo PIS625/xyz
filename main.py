@@ -7,7 +7,7 @@ import os
 import random
 
 today = datetime.now()
-start_date ='2022-01-04
+start_date ='2022-01-04'
 city ='鄂尔多斯市'
 birthday ='07-23'
 
