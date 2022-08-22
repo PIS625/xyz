@@ -5,8 +5,11 @@ from wechatpy.client.api import WeChatMessage, WeChatTemplate
 import requests
 import os
 import random
-
-today = datetime.now()
+# 当前时间
+today = datetime.datetime.today()
+now = datetime.datetume.now()
+# 当前星期几
+weekday = datetime.datetime.today().weekday()
 start_date ='2022-01-04'
 city ='鄂尔多斯市'
 birthday ='07-23'
@@ -51,3 +54,10 @@ wea, temperature = get_weather()
 data = {"weather":{"value":wea},"temperature":{"value":temperature},"love_days":{"value":get_count()},"birthday_left":{"value":get_birthday()},"words":{"value":get_words(), "color":get_random_color()}}
 res = wm.send_template(user_id, template_id, data)
 print(res)
+# 登录邮件箱发送邮件
+server.login(MAIL['from'],MAIL['pwd']
+server.sendmail(MAIL['from'],receiver_list,msg.as_string())
+print('发送成功')
+             
+except Exception as e:
+print('error',e)
