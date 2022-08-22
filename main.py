@@ -8,8 +8,6 @@ import random
 # 当前时间
 today = datetime.datetime.today()
 now = datetime.datetume.now()
-# 当前星期几
-weekday = datetime.datetime.today().weekday()
 start_date ='2022-01-04'
 city ='鄂尔多斯市'
 birthday ='07-23'
